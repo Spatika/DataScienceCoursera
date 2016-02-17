@@ -1,0 +1,180 @@
+demo()
+help.start()
+q()
+3*4
+available.packages()
+install
+available.packages()
+a <- available.packages()
+install.packages("slidify")
+help()
+q()
+help()
+install.package("slidify")
+install.packages("slidify")
+install.packages("ggplot2")
+install.packages("swirl")
+load("swirl")
+library("swirl")
+install_from_swirl("R Programming")
+swirl()
+5 + 7
+x <- 5+7
+x
+y <- x-3
+y
+z <- c(1.1, 9, 3.14)
+?c
+z
+c(z, 555, z)
+z * 2 + 100
+my_sqrt <- sqrt(z-1)
+my_sqrt
+my_div <- z/my_sqrt
+my_div
+c(1, 2, 3, 4) + c(0, 10)
+c(1 2, 3, 4) + c(0, 10, 100)
+c(1, 2, 3, 4) + c(0, 10, 100)
+z * 2 + 1000
+my_div
+getwd()
+ls()
+x <- 9
+ls()
+list.files()
+dir()
+?list.files
+args()
+args(list.files)
+old.dir <- getwd()
+dir.create(testdir)
+dir.create("testdir")
+setwd("testdir")
+file.create("mytest.R")
+ls()
+dir()
+file.exists("mytest.R")
+file.info("mytest.R")
+?file.rename
+file.rename("mytest.R", "mytest2.R")
+file.copy("mytest2.R", "mytest3.R")
+?file.path
+file.path("mytest3.R")
+file.path('folder1', 'folder2')
+?dir.create
+file.path(dir.create("testdir3"), dir.create("testdir2"))
+file.path(dir.create("testdir3"), dir.create("testdir2"), recursive = TRUE)
+dir.create(file.path('testdir2', 'testdir3'), recursive = TRUE)
+unlink("testdir2", recursive = TRUE)
+setwd(old.dir)
+unlink('testdir', recursive = TRUE)
+quit()
+swirl()
+library.package("swirl")
+library("swirl")
+swirl()
+quit()
+install.packages("boot")
+library(boot)
+x <- list(2, "a", "b", TRUE)
+x[[2]]
+x <- 5
+x
+x <- 1:4
+y <- 2:3
+x+y
+class(x+y)
+x <- c(1,3, 5)
+y <- c(3, 2, 10)
+cbind(x,y)
+dir()
+setwd(Documents)
+ls()
+setwd(/Documents)
+setwd(Documents)
+setwd("Documents")
+setwd("DataScienceCoursera")
+read.csv("hw1_data.csv")
+x <- read.csv("hw1_data.csv")
+x
+names(x)
+y <- ("a", TRUE)
+y <- ("a", "b)"
+y <- ("a", "b")
+y <- c("a", "b")
+y <- c("a", TRUE)
+class(y)
+y
+y <- list("a", TRUE)
+class(y[[1]])
+x <- c(4, TRUE)
+class(x)
+x
+x <- list(2, "a", "b", TRUE)
+class(x[[2]])
+x <- read.csv("hw1_data.csv")
+x($Solar.R)
+x[[$Ozone]]
+y <- x$Ozone > 31 & x$Temp > 90
+y
+x[y]
+x[Ozone > 31 & xTemp > 90]
+x[xOzone > 31 & xTemp > 90]
+x[x$Ozone > 31 & x$Temp > 90]
+x[x$"Ozone" > 31 & x$"Temp" > 90]
+y <- x"$Ozone" > 31 & x"$Temp"> 90
+y <- x$Ozone > 31 & x$Temp > 90
+y
+x[y]
+x["Ozone"]
+y <- "Ozone" > 31 & "Temp" > 90
+y
+x[y]
+x["Ozone" > 31]
+x[Ozone > 31]
+x["Ozone" > "31"]
+x["Ozone" > "31"]
+y <- x["Ozone" > "31"]
+x[y]
+y
+sub.x <- subset(x, x[1] > 31 & x[4] > 90)
+sub.x
+sub.x <- subset(x, x[, 1] > 31 & x[, 4] > 90)
+sub.x
+mean(sub.x[,2])
+nrows(x)
+x[c(1,2)]
+x[1 ,2]
+x[c(1, 2)]
+x[,1]
+x[1,]
+x[2,]
+nrows(x)
+rows(x)
+x.nrows
+x(nrows)
+nrows
+nrows?
+s
+?
+nrows
+?
+rows
+tail()
+tail(x)
+tail(x,2)
+head()
+head(x.2)
+head(x,2)
+x(,47)
+x[47,]
+is.na(x)
+x[is.na()]
+x[is.na(x)]
+x[,is.na(x)]
+x[is.na(x),]
+x[is.na(x)]
+mean(x[,1])
+tail(x)
+mean(x[1])
+?read.table
