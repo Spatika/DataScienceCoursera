@@ -1,5 +1,7 @@
 #CodeBook for Samsung Wearables Dataset
 
+##New Tidy Dataset
+
 +  Number of Instances (rows): 35
 +  Number of Attributes (columns): 68
     - Column 1: activitylabel (Character vector from original dataset)
